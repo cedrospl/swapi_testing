@@ -24,7 +24,7 @@ public class filmsTest {
                 .response();
 
         JsonPath json = response.jsonPath();
-//        System.out.println(json.prettyPrint());
+        System.out.println(json.prettyPrint());
         List<String> episodesNumber = json.getList("results.episode_id");
         Assertions.assertThat(episodesNumber.size()).isEqualTo(7);
     }

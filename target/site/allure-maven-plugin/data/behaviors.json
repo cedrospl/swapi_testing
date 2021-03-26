@@ -1,0 +1,17 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "readAllFilms()",
+    "uid" : "1df59be6aecd2beb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616784363992,
+      "stop" : 1616784365921,
+      "duration" : 1929
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

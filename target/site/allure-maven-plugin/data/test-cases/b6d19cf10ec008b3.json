@@ -1,0 +1,61 @@
+{
+  "uid" : "b6d19cf10ec008b3",
+  "name" : "readAllFilms()",
+  "fullName" : "swapi.filmsTest.readAllFilms",
+  "historyId" : "e23ebe928a1dd4d622e81fed74cee498",
+  "time" : {
+    "start" : 1616782964108,
+    "stop" : 1616782965531,
+    "duration" : 1423
+  },
+  "description" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-FE49O3P"
+  }, {
+    "name" : "thread",
+    "value" : "9380@DESKTOP-FE49O3P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "swapi.filmsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "swapi.filmsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "readAllFilms"
+  }, {
+    "name" : "suite",
+    "value" : "swapi.filmsTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "source" : "b6d19cf10ec008b3.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "empty" : true,
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

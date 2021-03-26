@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-FE49O3P",
+    "children" : [ {
+      "name" : "2804@DESKTOP-FE49O3P.main(1)",
+      "children" : [ {
+        "name" : "readAllFilms()",
+        "uid" : "1df59be6aecd2beb",
+        "parentUid" : "14ad10e01a2d84bd6f251cb12f9b6841",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616784363992,
+          "stop" : 1616784365921,
+          "duration" : 1929
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "14ad10e01a2d84bd6f251cb12f9b6841"
+    } ],
+    "uid" : "17735ee490608279f511d6b7db5f9265"
+  } ]
+}

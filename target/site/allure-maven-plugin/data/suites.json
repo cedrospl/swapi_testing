@@ -1,0 +1,21 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "swapi.filmsTest",
+    "children" : [ {
+      "name" : "readAllFilms()",
+      "uid" : "1df59be6aecd2beb",
+      "parentUid" : "fc411740ce2c059912b4511e5b8bfea9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616784363992,
+        "stop" : 1616784365921,
+        "duration" : 1929
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "fc411740ce2c059912b4511e5b8bfea9"
+  } ]
+}

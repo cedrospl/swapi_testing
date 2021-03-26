@@ -1,0 +1,96 @@
+{
+  "uid" : "1df59be6aecd2beb",
+  "name" : "readAllFilms()",
+  "fullName" : "swapi.filmsTest.readAllFilms",
+  "historyId" : "e23ebe928a1dd4d622e81fed74cee498",
+  "time" : {
+    "start" : 1616784363992,
+    "stop" : 1616784365921,
+    "duration" : 1929
+  },
+  "description" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-FE49O3P"
+  }, {
+    "name" : "thread",
+    "value" : "2804@DESKTOP-FE49O3P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "swapi.filmsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "swapi.filmsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "readAllFilms"
+  }, {
+    "name" : "suite",
+    "value" : "swapi.filmsTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "51b1d4632fe633f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616784188139,
+        "stop" : 1616784190270,
+        "duration" : 2131
+      }
+    }, {
+      "uid" : "529889993297ed17",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616783200532,
+        "stop" : 1616783202172,
+        "duration" : 1640
+      }
+    }, {
+      "uid" : "b6d19cf10ec008b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616782964108,
+        "stop" : 1616782965531,
+        "duration" : 1423
+      }
+    }, {
+      "uid" : "b6d67faea7201b6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616782942132,
+        "stop" : 1616782944250,
+        "duration" : 2118
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1df59be6aecd2beb.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "empty" : true,
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

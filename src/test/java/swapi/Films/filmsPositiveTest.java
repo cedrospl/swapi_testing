@@ -26,7 +26,6 @@ public class filmsPositiveTest extends BaseTest {
                 .response();
 
         JsonPath json = response.jsonPath();
-//        System.out.println(json.prettyPrint());
         List<String> episodesNumber = json.getList("results.episode_id");
         assertThat(episodesNumber.size()).isEqualTo(7);
     }

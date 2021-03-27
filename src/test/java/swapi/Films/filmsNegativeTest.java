@@ -22,20 +22,22 @@ public class filmsNegativeTest extends BaseTest {
     public void update1FilmWithoutBody() {
         given()
                 .spec(reqSpec)
+                .pathParam("id", 3)
                 .when()
-                .put(BASE_URL + FILMS_ENDPOINT)
+                .put(BASE_URL + FILMS_ENDPOINT + "{id}")
                 .then()
-                .statusCode(HttpStatus.SC_METHOD_NOT_ALLOWED);
+                .statusCode(HttpStatus.SC_MOVED_PERMANENTLY);
     }
 
     @Test
     public void update2FilmWithoutBody() {
         given()
                 .spec(reqSpec)
+                .pathParam("id", 2)
                 .when()
-                .patch(BASE_URL + FILMS_ENDPOINT)
+                .patch(BASE_URL + FILMS_ENDPOINT + "{id}")
                 .then()
-                .statusCode(HttpStatus.SC_METHOD_NOT_ALLOWED);
+                .statusCode(HttpStatus.SC_MOVED_PERMANENTLY);
     }
 
     @Test

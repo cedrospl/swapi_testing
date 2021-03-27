@@ -1,6 +1,7 @@
 package swapi;
 
 import base.BaseTest;
+import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.apache.http.HttpStatus;
@@ -17,6 +18,7 @@ public class filmsPositiveTest extends BaseTest {
     public void readAllFilms() {
 
         Response response = given()
+                .spec(reqSpec)
                 .when()
                 .get(BASE_URL + FILMS_ENDPOINT)
                 .then()
@@ -34,6 +36,7 @@ public class filmsPositiveTest extends BaseTest {
     public void readOneFilm() {
 
         Response response = given()
+                .spec(reqSpec)
                 .pathParam("id", "5")
                 .when()
                 .get(BASE_URL + FILMS_ENDPOINT + "{id}")

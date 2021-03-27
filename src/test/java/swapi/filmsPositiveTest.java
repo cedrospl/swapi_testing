@@ -11,7 +11,7 @@ import java.util.List;
 import static io.restassured.RestAssured.given;
 import static org.assertj.core.api.Assertions.*;
 
-public class filmsTest extends BaseTest {
+public class filmsPositiveTest extends BaseTest {
 
     @Test
     public void readAllFilms() {

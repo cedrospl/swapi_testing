@@ -1,7 +1,6 @@
 package swapi.Films;
 
 import base.BaseTest;
-import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.apache.http.HttpStatus;

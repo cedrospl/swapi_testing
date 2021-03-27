@@ -9,7 +9,7 @@ import static io.restassured.RestAssured.given;
 public class peopleNegativeTest extends BaseTest {
 
     @Test
-    public void addNewFilmWithoutBody() {
+    public void addNewPersonWithoutBody() {
         given()
                 .spec(reqSpec)
                 .when()
@@ -19,30 +19,32 @@ public class peopleNegativeTest extends BaseTest {
     }
 
     @Test
-    public void update1FilmWithoutBody() {
+    public void update1PersonWithoutBody() {
         given()
                 .spec(reqSpec)
+                .pathParam("id", 38)
                 .when()
-                .put(BASE_URL + PEOPLE_ENDPOINT)
+                .put(BASE_URL + PEOPLE_ENDPOINT + "{id}")
                 .then()
-                .statusCode(HttpStatus.SC_METHOD_NOT_ALLOWED);
+                .statusCode(HttpStatus.SC_MOVED_PERMANENTLY);
     }
 
     @Test
-    public void update2FilmWithoutBody() {
+    public void update2PersonWithoutBody() {
         given()
                 .spec(reqSpec)
+                .pathParam("id", 42)
                 .when()
-                .patch(BASE_URL + PEOPLE_ENDPOINT)
+                .patch(BASE_URL + PEOPLE_ENDPOINT + "{id}")
                 .then()
-                .statusCode(HttpStatus.SC_METHOD_NOT_ALLOWED);
+                .statusCode(HttpStatus.SC_MOVED_PERMANENTLY);
     }
 
     @Test
-    public void deleteExistingFilm() {
+    public void deleteExistingPerson() {
         given()
                 .spec(reqSpec)
-                .pathParam("id", 5)
+                .pathParam("id", 24)
                 .when()
                 .delete(BASE_URL + PEOPLE_ENDPOINT + "{id}")
                 .then()

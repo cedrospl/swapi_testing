@@ -1,4 +1,4 @@
-package swapi;
+package swapi.Films;
 
 import base.BaseTest;
 import io.restassured.builder.RequestSpecBuilder;
